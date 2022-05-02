@@ -69,17 +69,17 @@
 //         break;
 //     }
 
-const age=15;
-const legalAge=20;
-const drinkingAge = 20;
-const celciusDegrees = 26;
+// const age=15;
+// const legalAge=20;
+// const drinkingAge = 20;
+// const celciusDegrees = 26;
 
 
-if(age < legalAge){
-    console.log("nepilnametis");
-} else {
-    console.log("pilnametis");
-}
+// if(age < legalAge){
+//     console.log("nepilnametis");
+// } else {
+//     console.log("pilnametis");
+// }
 
 
 //Ternary simboliai ? :
@@ -94,11 +94,17 @@ if(age < legalAge){
 
 // console.log(weather);
 
-const myName = `Rokas`;
-const surname = `Andreikenas`;
+// const myName = `Rokas`;
+// const surname = `Andreikenas`;
 
-console.log(myName + "  " + surname);
-console.log(`${myName ${surname}}`);
+// console.log(myName + "  " + surname);
+// console.log(`${myName ${surname}}`);
 
-const fullNameOld = myName + " " + surname;
-const fullNameNew = `${myName} ${surname}`;
+// const fullNameOld = myName + " " + surname;
+// const fullNameNew = `${myName} ${surname}`;
+
+const age = 30;
+const nowYear = 2022;
+const birthYear = (nowYear - age);
+
+console.log(birthYear);
