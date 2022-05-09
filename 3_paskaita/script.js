@@ -1,5 +1,5 @@
 // console.log("Trecia paskaita switch, ternarry, for ciklas");
-
+// 
 // const key = 1;
 
 
@@ -34,40 +34,41 @@
     
 //     }
     
+const number = 1;
+
     
+    switch (number) {
     
-//     switch (number) {
+        case 1:
+        console.log("Pirmadienis");
+        break;
     
-//         case 1:
-//         console.log("Pirmadienis");
-//         break;
+    case 2:
+        console.log("Antadienis");
+        break;
     
-//     case 2:
-//         console.log("Antadienis");
-//         break;
+    case 3:
+        console.log("Treciadienis");
+        break;
     
-//     case 3:
-//         console.log("Treciadienis");
-//         break;
+    case 4:
+        console.log("Ketvirtadienis");
+        break;
     
-//     case 4:
-//         console.log("Ketvirtadienis");
-//         break;
+    case 5:
+        console.log("Penktadienis");
+        break;
     
-//     case 5:
-//         console.log("Penktadienis");
-//         break;
+    case 6:
     
-//     case 6:
+    case 7:
+        console.log("Savaitgalis");
+        break;
     
-//     case 7:
-//         console.log("Savaitgalis");
-//         break;
-    
-//     default:
-//         console.log("Blogai irasyta savaites diena");
-//         break;
-//     }
+    default:
+        console.log("Blogai irasyta savaites diena");
+        break;
+    }
 
 // const age=15;
 // const legalAge=20;
@@ -103,8 +104,8 @@
 // const fullNameOld = myName + " " + surname;
 // const fullNameNew = `${myName} ${surname}`;
 
-const age = 30;
-const nowYear = 2022;
-const birthYear = (nowYear - age);
+// const age = 30;
+// const nowYear = 2022;
+// const birthYear = (nowYear - age);
 
-console.log(birthYear);
+// console.log(birthYear);
