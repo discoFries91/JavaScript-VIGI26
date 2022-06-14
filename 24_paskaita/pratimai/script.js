@@ -32,7 +32,7 @@ const renderUser = (user) => {
     document.getElementById("users").append(trUser);
 }
 
-const renderTable = () => {
+const renderTable = (users) => {
     const thId = document.createElement('th');
     const thName = document.createElement('th');
     const thCity = document.createElement('th');
@@ -53,3 +53,12 @@ const renderTable = () => {
 
     document.body.append(table);
  };
+
+ fetch("https://magnetic-melon-yam.glitch.me")
+    .then((resp) => resp.json())
+    .then((response) => {
+        renderTable(response);
+    })
+    .catch((error) => {
+      console.error(error, ": Failed to load comments");
+    });
